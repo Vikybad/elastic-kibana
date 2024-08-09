@@ -1,0 +1,28 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "main": "jwt.js",
+  "scripts": {
+    "test": "mocha /test/*.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "experss": "^0.0.1-security",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "pm2": "^5.4.2"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0"
+  }
+}
